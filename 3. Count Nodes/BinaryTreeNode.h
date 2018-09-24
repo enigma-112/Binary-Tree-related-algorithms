@@ -3,9 +3,9 @@
 template <typename T>
 class BTNode {
 	public:
-	T data;			// Data
-	BTNode* left;	// Left Child
-	BTNode* right;	// Right Child
+	T data;	         // Data
+	BTNode* left;	 // Left Child
+	BTNode* right;	 // Right Child
 
 	//Constructor
 	BTNode(T data) {
